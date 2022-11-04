@@ -147,6 +147,7 @@ body {
   border: 1px black;
   align-items: center;
   font-size: 1.7rem;
+  border-radius: 1%;
 }
 
 .ende {
@@ -164,4 +165,10 @@ body {
   display: flex;
   flex-direction: column;
   color: #fbf9f9;
+}
+
+.try:hover {
+  background-color: #fbf9f9;
+  color: #000;
+  border: #000;
 }

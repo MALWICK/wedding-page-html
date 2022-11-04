@@ -3,7 +3,7 @@ body {
 }
 
 .cuddle {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(#00000080, #00000080),
     url("/asset/styles/images/coplejpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ body {
 
 .kissing {
   background-color: #d5a4a4;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: row;
   font-size: 30px;
@@ -67,7 +67,7 @@ body {
   width: 10%;
   height: 5vh;
   font-size: large;
-  background-color: #000000;
+  background-color: #000;
   color: white;
   border: 1px black;
 }
@@ -75,11 +75,11 @@ body {
 .det:hover {
   background-color: #fbf9f9;
   color: #201e1e;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .flow {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(#00000080, #00000080),
     url("/asset/styles/images/beautiful-bouquet.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +105,7 @@ body {
 
 .dd {
   text-align: center;
-  color: #605c5c;
+  color: #1d4d4d;
 }
 
 .chair {
@@ -127,7 +127,42 @@ body {
 }
 
 .hall {
-  background-color: #d5a4a4;
+  background-color: #dec9c9;
   display: flex;
   flex-direction: column;
+}
+
+.satz {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.try {
+  margin: 1%;
+  width: 130px;
+  height: 7vh;
+  font-size: large;
+  background-color: rgb(212, 114, 114);
+  color: white;
+  border: 1px black;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.ende {
+  background-color: #bb8c8c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 33vh;
+}
+
+.poer {
+  font-style: oblique;
+  text-align: center;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #fbf9f9;
 }

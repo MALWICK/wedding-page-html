@@ -3,8 +3,7 @@ body {
 }
 
 .cuddle {
-  background-image: linear-gradient(#00000080, #00000080),
-    url("/asset/styles/images/coplejpg.jpg");
+  background-image: linear-gradient(#00000080, #00000080), url("/asset/styles/images/coplejpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -169,6 +168,6 @@ body {
 
 .try:hover {
   background-color: #fbf9f9;
-  color: rgb(50, 48, 48);
+  color: #323030;
   border: #000;
 }

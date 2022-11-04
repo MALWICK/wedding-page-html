@@ -1,9 +1,11 @@
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 .cuddle {
-  background-image: linear-gradient(#00000080, #00000080), url("/asset/styles/images/coplejpg.jpg");
+  background-image: linear-gradient(#00000080, #00000080),
+    url("/asset/styles/images/coplejpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -29,13 +31,10 @@ body {
 .kissing {
   background-color: #d5a4a4;
   color: #000;
-  display: flex;
   flex-direction: row;
   font-size: 30px;
-  flex: 50%;
   text-align: center;
-  height: 100vh;
-  position: relative;
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -44,12 +43,13 @@ body {
   }
 }
 
-.sde {
+.side {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
+  width: 100%;
   border-radius: 1%;
+  filter: grayscale(70%);
 }
 
 .top1 {
@@ -59,6 +59,9 @@ body {
 .dov {
   font-style: italic;
   text-align: center;
+  width: 55%;
+  margin-left: 20vw;
+  align-items: center;
 }
 
 .det {
@@ -67,7 +70,7 @@ body {
   height: 5vh;
   font-size: large;
   background-color: #000;
-  color: white;
+  color: #fbf8f8;
   border: 1px black;
 }
 
@@ -78,8 +81,7 @@ body {
 }
 
 .flow {
-  background-image:  linear-gradient(#00000080),
-    url("/asset/styles/images/beautiful-bouquet.png");
+  background: url(/asset/styles/images/beautiful-bouquet.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -89,6 +91,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  filter: grayscale(30%);
 }
 
 .bq {
@@ -112,6 +115,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  filter: grayscale(100%);
 }
 
 .space {
@@ -168,6 +172,6 @@ body {
 
 .try:hover {
   background-color: #fbf9f9;
-  color: #323030;
+  color: rgb(50, 48, 48);
   border: #000;
 }

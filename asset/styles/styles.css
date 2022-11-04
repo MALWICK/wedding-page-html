@@ -4,8 +4,7 @@ body {
 }
 
 .cuddle {
-  background-image: linear-gradient(#00000080, #00000080),
-  url("/asset/styles/images/coplejpg.jpg");
+  background: url("/asset/styles/images/coplejpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -15,6 +14,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  filter: grayscale(30%);
 }
 
 .cdl {
@@ -66,7 +66,7 @@ body {
 
 .det {
   margin: 1%;
-  width: 10%;
+  width: auto;
   height: 5vh;
   font-size: large;
   background-color: #000;
@@ -141,7 +141,7 @@ body {
 
 .try {
   margin: 1%;
-  width: 130px;
+  width: 10vw;
   height: 7vh;
   background-color: #d47272;
   color: white;
@@ -149,14 +149,15 @@ body {
   align-items: center;
   font-size: 1.7rem;
   border-radius: 1%;
+  margin-bottom: 6%;
 }
 
 .ende {
-  background-color: #bb8c8c;
+  background-color: #d6a4a4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 33vh;
+  height: auto;
 }
 
 .poer {
@@ -170,6 +171,10 @@ body {
 
 .try:hover {
   background-color: #fbf9f9;
-  color: rgb(50, 48, 48);
+  color: #323030;
   border: #000;
+}
+
+.a {
+  text-decoration: underline;
 }

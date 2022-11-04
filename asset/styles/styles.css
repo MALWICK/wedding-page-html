@@ -79,7 +79,7 @@ body {
 }
 
 .flow {
-  background-image: linear-gradient(#00000080, #00000080),
+  background-image:  linear-gradient(#00000080, #00000080),
     url("/asset/styles/images/beautiful-bouquet.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,8 +142,7 @@ body {
   margin: 1%;
   width: 130px;
   height: 7vh;
-  font-size: large;
-  background-color: rgb(212, 114, 114);
+  background-color: #d47272;
   color: white;
   border: 1px black;
   align-items: center;

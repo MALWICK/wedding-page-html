@@ -169,6 +169,6 @@ body {
 
 .try:hover {
   background-color: #fbf9f9;
-  color: #000;
+  color: rgb(50, 48, 48);
   border: #000;
 }
